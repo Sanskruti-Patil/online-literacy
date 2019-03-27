@@ -1,0 +1,12 @@
+name: Registration Role With Approval
+description: Allows admin to select which roles will be available to users on registration form and to set which roles needs admin approval.
+type: module
+# core: 8.x
+package: Profile
+configure: registration_role_with_approval.settings
+
+# Information added by Drupal.org packaging script on 2016-04-10
+version: '8.x-1.0-rc1'
+core: '8.x'
+project: 'registration_role_with_approval'
+datestamp: 1460319874

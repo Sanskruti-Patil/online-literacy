@@ -1,0 +1,39 @@
+[24-Mar-2019 14:57:47 Etc/GMT] PDOException: SQLSTATE[42000] [1203] User itappcy1_all already has more than 'max_user_connections' active connections in /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(420): PDO->__construct('mysql:host=loca...', 'itappcy1_all', 'al!68759820', Array)
+#1 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/Database/Database.php(371): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/Database/Database.php(166): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(260): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/DrupalKernel.php(543): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/DrupalKernel.php(904): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/DrupalKernel.php(476): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/itappcy1/public_html/literacy/core/modules/statistics/statistics.php(16): Drupal\Core\DrupalKernel->boot()
+#13 {main}
+[24-Mar-2019 15:53:04 Etc/GMT] PDOException: SQLSTATE[42000] [1203] User itappcy1_all already has more than 'max_user_connections' active connections in /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(420): PDO->__construct('mysql:host=loca...', 'itappcy1_all', 'al!68759820', Array)
+#1 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/Database/Database.php(371): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/Database/Database.php(166): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(260): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home/itappcy1/public_html/literacy/core/lib/Drupal/Component/DependencyInjection/Container.php(171): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/DrupalKernel.php(543): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/DrupalKernel.php(904): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/DrupalKernel.php(476): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home/itappcy1/public_html/literacy/core/lib/Drupal/Core/DrupalKernel.php(692): Drupal\Core\DrupalKernel->boot()
+#13 /home/itappcy1/public_html/literacy/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[25-Mar-2019 19:33:51 Asia/Kolkata] Uncaught PHP Exception Twig\Error\SyntaxError: "An array element must be followed by a comma. Unexpected token "string" of value "paragraph" ("punctuation" expected with value ",")." at /home/itappcy1/public_html/literacy/themes/san/templates/field/paragraph--cpanel.html.twig line 44
+[25-Mar-2019 19:33:57 Asia/Kolkata] Uncaught PHP Exception Twig\Error\SyntaxError: "An array element must be followed by a comma. Unexpected token "string" of value "paragraph" ("punctuation" expected with value ",")." at /home/itappcy1/public_html/literacy/themes/san/templates/field/paragraph--cpanel.html.twig line 44
+[25-Mar-2019 19:34:30 Asia/Kolkata] Uncaught PHP Exception Twig\Error\SyntaxError: "An array element must be followed by a comma. Unexpected token "string" of value "paragraph" ("punctuation" expected with value ",")." at /home/itappcy1/public_html/literacy/themes/san/templates/field/paragraph--cpanel.html.twig line 44
+[25-Mar-2019 19:35:06 Asia/Kolkata] Uncaught PHP Exception Twig\Error\LoaderError: "Template "themes/san/templates/field/paragraph--cpanel.html.twig" is not defined." at /home/itappcy1/public_html/literacy/themes/san/templates/field/field.html.twig line 44
+[27-Mar-2019 14:01:24 Asia/Kolkata] Uncaught PHP Exception InvalidArgumentException: "Cannot redirect to an empty URL." at /home/itappcy1/public_html/literacy/vendor/symfony/http-foundation/RedirectResponse.php line 86
+[27-Mar-2019 14:04:20 Asia/Kolkata] Uncaught PHP Exception InvalidArgumentException: "Cannot redirect to an empty URL." at /home/itappcy1/public_html/literacy/vendor/symfony/http-foundation/RedirectResponse.php line 86
+[27-Mar-2019 14:05:22 Asia/Kolkata] Uncaught PHP Exception InvalidArgumentException: "Cannot redirect to an empty URL." at /home/itappcy1/public_html/literacy/vendor/symfony/http-foundation/RedirectResponse.php line 86
+[27-Mar-2019 15:04:08 Asia/Kolkata] Uncaught PHP Exception InvalidArgumentException: "Cannot redirect to an empty URL." at /home/itappcy1/public_html/literacy/vendor/symfony/http-foundation/RedirectResponse.php line 86
+[27-Mar-2019 15:05:13 Asia/Kolkata] Uncaught PHP Exception InvalidArgumentException: "Cannot redirect to an empty URL." at /home/itappcy1/public_html/literacy/vendor/symfony/http-foundation/RedirectResponse.php line 86
+[27-Mar-2019 15:11:54 Asia/Kolkata] Uncaught PHP Exception InvalidArgumentException: "Cannot redirect to an empty URL." at /home/itappcy1/public_html/literacy/vendor/symfony/http-foundation/RedirectResponse.php line 86
