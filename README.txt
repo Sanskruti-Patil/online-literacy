@@ -1,1 +1,1 @@
-Project is develop for Hackathon held by "Principal"(Principal Financial Services, Inc.) for Corporate Socaial Responsibility ideas.
+Project is developed for Hackathon held by "Principal"(Principal Financial Services, Inc.) for Corporate Social Responsibility ideas.
