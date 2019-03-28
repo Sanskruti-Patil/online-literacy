@@ -345,6 +345,7 @@ aside .block {
 footer.section {
     padding: 1.1em;
     background: rgba(11,188,211,0.9);
+    color: #000;
 }
 .region-footer:before {
   display: block;
