@@ -425,3 +425,24 @@ div#youtubechannel-list {
 	background: #eee;
 	border-radius: 5px;
 }
+
+/* Responsive */
+@media only screen and (max-width: 499px){/* For smaller/lower width than 499px */
+	
+	
+}
+@media only screen and (min-width: 500px){/* For biger/higher width than 500px */
+	/* User Registration form */
+	.user-register-form .js-form-item {
+		float: left;
+		width: 40%;
+		margin: 11px 1%;
+		padding: 11px 1%;
+		background: #eee;
+		border: 1px solid #aaa;
+	}
+	details#edit-entity-student {
+		clear: both;
+	}
+	
+}
