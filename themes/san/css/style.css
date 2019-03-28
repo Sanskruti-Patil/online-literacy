@@ -41,9 +41,6 @@ img {
 p {
   line-height: 1.34em;
 }
-p {
-  margin: 2px 11px;
-}
 
 h2 {
   margin: 5px 2px;
@@ -365,7 +362,7 @@ footer.section {
 
 /* Front Page */
 main#front {
-    background: #fff url(hp2.jpg)repeat-y top left;
+    background: #fff url(hp2.jpg)top left;
 }
 main#front .content,main#front aside {
     min-height:450px;
