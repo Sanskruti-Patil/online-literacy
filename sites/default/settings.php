@@ -769,9 +769,9 @@ $settings['entity_update_batch_size'] = 50;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'itappcy1_literacy-dr8',
-  'username' => 'itappcy1_all',
-  'password' => 'al!68759820',
+  'database' => 'literacy',
+  'username' => 'shiv',
+  'password' => '123s123s',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',

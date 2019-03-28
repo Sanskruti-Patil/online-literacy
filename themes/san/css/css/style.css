@@ -376,7 +376,7 @@ main#front aside {
     background: #fff;
  }
 main#front .content,
-main#front .content h1{color:#fff; padding-top:1.5em;}
+main#front .content h1{color:#000; padding-top:1.5em;}
 main#front .content a{color:#fff;}
 main#front .content{padding:1em; text-align:center;}
 main#front input {

@@ -37,3 +37,4 @@
 [27-Mar-2019 15:04:08 Asia/Kolkata] Uncaught PHP Exception InvalidArgumentException: "Cannot redirect to an empty URL." at /home/itappcy1/public_html/literacy/vendor/symfony/http-foundation/RedirectResponse.php line 86
 [27-Mar-2019 15:05:13 Asia/Kolkata] Uncaught PHP Exception InvalidArgumentException: "Cannot redirect to an empty URL." at /home/itappcy1/public_html/literacy/vendor/symfony/http-foundation/RedirectResponse.php line 86
 [27-Mar-2019 15:11:54 Asia/Kolkata] Uncaught PHP Exception InvalidArgumentException: "Cannot redirect to an empty URL." at /home/itappcy1/public_html/literacy/vendor/symfony/http-foundation/RedirectResponse.php line 86
+[27-Mar-2019 21:37:51 Asia/Kolkata] Uncaught PHP Exception InvalidArgumentException: "Cannot redirect to an empty URL." at /home/itappcy1/public_html/literacy/vendor/symfony/http-foundation/RedirectResponse.php line 86
